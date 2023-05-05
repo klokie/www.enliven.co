@@ -1,0 +1,777 @@
+<!DOCTYPE html><html class="smartbanner-margin-top"><head>
+<title>Grönkålspesto | ENLIVEN</title><meta data-react-helmet="true" charset="utf-8"><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="apple-mobile-web-app-capable" content="yes"><meta data-react-helmet="true" name="apple-mobile-web-app-title" content="ENLIVEN – Subscribe to Life"><meta data-react-helmet="true" name="apple-itunes-app" content="app-id=1319202364"><meta data-react-helmet="true" name="google-play-app" content="app-id=com.enliven.co"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0);
+          animation-delay: var(--fa-animation-delay, 0);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link data-react-helmet="true" rel="stylesheet" href="../../styles/critical-front.css%3F20230122.css"><link data-react-helmet="true" href="../../images/enliven-logo-370x370.png" rel="apple-touch-icon"><link data-react-helmet="true" href="../../images/enliven-logo-370x370.png" rel="android-touch-icon"><link data-react-helmet="true" href="../../images/logo.png" rel="apple-touch-icon"><link data-react-helmet="true" rel="apple-touch-startup-image" href="../../images/logo.png"><link data-react-helmet="true" rel="apple-touch-icon" sizes="57x57" href="../../apple-touch-icon-57x57.png.html"><link data-react-helmet="true" rel="apple-touch-icon" sizes="76x76" href="../../apple-touch-icon-76x76.png"><link data-react-helmet="true" rel="apple-touch-icon" sizes="120x120" href="../../apple-touch-icon-120x120.png"><link data-react-helmet="true" rel="apple-touch-icon" sizes="152x152" href="../../apple-touch-icon-152x152.png"><link data-react-helmet="true" rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon-180x180.png"><link data-react-helmet="true" rel="icon" sizes="192x192" href="../../android-chrome-192x192.png"><link data-react-helmet="true" rel="alternate" type="application/rss+xml" href="../../feed.xml.html"><link data-react-helmet="true" rel="shortcut icon" href="../../favicon.ico"><link data-react-helmet="true" rel="preload" href="https://style.enliven.co/fonts/avenir-next-lt-pro/avenirnext-regular.woff2" as="font" crossorigin="anonymous"><link data-react-helmet="true" rel="preload" href="https://style.enliven.co/fonts/didot/didot-bold.woff2" as="font" crossorigin="anonymous">
+
+
+
+
+<style type="text/css">.at-icon{fill:#fff;border:0}.at-icon-wrapper{display:inline-block;overflow:hidden}a .at-icon-wrapper{cursor:pointer}.at-rounded,.at-rounded-element .at-icon-wrapper{border-radius:12%}.at-circular,.at-circular-element .at-icon-wrapper{border-radius:50%}.addthis_32x32_style .at-icon{width:2pc;height:2pc}.addthis_24x24_style .at-icon{width:24px;height:24px}.addthis_20x20_style .at-icon{width:20px;height:20px}.addthis_16x16_style .at-icon{width:1pc;height:1pc}#at16lb{display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1001;background-color:#000;opacity:.001}#at_complete,#at_error,#at_share,#at_success{position:static!important}.at15dn{display:none}#at15s,#at16p,#at16p form input,#at16p label,#at16p textarea,#at_share .at_item{font-family:arial,helvetica,tahoma,verdana,sans-serif!important;font-size:9pt!important;outline-style:none;outline-width:0;line-height:1em}* html #at15s.mmborder{position:absolute!important}#at15s.mmborder{position:fixed!important;width:250px!important}#at15s{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);float:none;line-height:1em;margin:0;overflow:visible;padding:5px;text-align:left;position:absolute}#at15s a,#at15s span{outline:0;direction:ltr;text-transform:none}#at15s .at-label{margin-left:5px}#at15s .at-icon-wrapper{width:1pc;height:1pc;vertical-align:middle}#at15s .at-icon{width:1pc;height:1pc}.at4-icon{display:inline-block;background-repeat:no-repeat;background-position:top left;margin:0;overflow:hidden;cursor:pointer}.addthis_16x16_style .at4-icon,.addthis_default_style .at4-icon,.at4-icon,.at-16x16{width:1pc;height:1pc;line-height:1pc;background-size:1pc!important}.addthis_32x32_style .at4-icon,.at-32x32{width:2pc;height:2pc;line-height:2pc;background-size:2pc!important}.addthis_24x24_style .at4-icon,.at-24x24{width:24px;height:24px;line-height:24px;background-size:24px!important}.addthis_20x20_style .at4-icon,.at-20x20{width:20px;height:20px;line-height:20px;background-size:20px!important}.at4-icon.circular,.circular .at4-icon,.circular.aticon{border-radius:50%}.at4-icon.rounded,.rounded .at4-icon{border-radius:4px}.at4-icon-left{float:left}#at15s .at4-icon{text-indent:20px;padding:0;overflow:visible;white-space:nowrap;background-size:1pc;width:1pc;height:1pc;background-position:top left;display:inline-block;line-height:1pc}.addthis_vertical_style .at4-icon,.at4-follow-container .at4-icon{margin-right:5px}html>body #at15s{width:250px!important}#at15s.atm{background:none!important;padding:0!important;width:10pc!important}#at15s_inner{background:#fff;border:1px solid #fff;margin:0}#at15s_head{position:relative;background:#f2f2f2;padding:4px;cursor:default;border-bottom:1px solid #e5e5e5}.at15s_head_success{background:#cafd99!important;border-bottom:1px solid #a9d582!important}.at15s_head_success a,.at15s_head_success span{color:#000!important;text-decoration:none}#at15s_brand,#at15sptx,#at16_brand{position:absolute}#at15s_brand{top:4px;right:4px}.at15s_brandx{right:20px!important}a#at15sptx{top:4px;right:4px;text-decoration:none;color:#4c4c4c;font-weight:700}#at15sptx:hover{text-decoration:underline}#at16_brand{top:5px;right:30px;cursor:default}#at_hover{padding:4px}#at_hover .at_item,#at_share .at_item{background:#fff!important;float:left!important;color:#4c4c4c!important}#at_share .at_item .at-icon-wrapper{margin-right:5px}#at_hover .at_bold{font-weight:700;color:#000!important}#at_hover .at_item{width:7pc!important;padding:2px 3px!important;margin:1px;text-decoration:none!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover{margin:0!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover,#at_share .at_item.athov,#at_share .at_item:hover{background:#f2f2f2!important;border:1px solid #e5e5e5;color:#000!important;text-decoration:none}.ipad #at_hover .at_item:focus{background:#fff!important;border:1px solid #fff}.at15t{display:block!important;height:1pc!important;line-height:1pc!important;padding-left:20px!important;background-position:0 0;text-align:left}.addthis_button,.at15t{cursor:pointer}.addthis_toolbox a.at300b,.addthis_toolbox a.at300m{width:auto}.addthis_toolbox a{margin-bottom:5px;line-height:initial}.addthis_toolbox.addthis_vertical_style{width:200px}.addthis_button_facebook_like .fb_iframe_widget{line-height:100%}.addthis_button_facebook_like iframe.fb_iframe_widget_lift{max-width:none}.addthis_toolbox a.addthis_button_counter,.addthis_toolbox a.addthis_button_facebook_like,.addthis_toolbox a.addthis_button_facebook_send,.addthis_toolbox a.addthis_button_facebook_share,.addthis_toolbox a.addthis_button_foursquare,.addthis_toolbox a.addthis_button_linkedin_counter,.addthis_toolbox a.addthis_button_pinterest_pinit,.addthis_toolbox a.addthis_button_tweet{display:inline-block}.addthis_toolbox span.addthis_follow_label{display:none}.addthis_toolbox.addthis_vertical_style span.addthis_follow_label{display:block;white-space:nowrap}.addthis_toolbox.addthis_vertical_style a{display:block}.addthis_toolbox.addthis_vertical_style.addthis_32x32_style a{line-height:2pc;height:2pc}.addthis_toolbox.addthis_vertical_style .at300bs{margin-right:4px;float:left}.addthis_toolbox.addthis_20x20_style span{line-height:20px}.addthis_toolbox.addthis_32x32_style span{line-height:2pc}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact,.addthis_toolbox.addthis_pill_combo_style a{float:left}.addthis_toolbox.addthis_pill_combo_style a.addthis_button_tweet{margin-top:-2px}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact{margin-right:4px}.addthis_default_style .addthis_separator{margin:0 5px;display:inline}div.atclear{clear:both}.addthis_default_style .addthis_separator,.addthis_default_style .at4-icon,.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300bs,.addthis_default_style .at300m{float:left}.at300b img,.at300bo img{border:0}a.at300b .at4-icon,a.at300m .at4-icon{display:block}.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300m{padding:0 2px}.at300b,.at300bo,.at300bs,.at300m{cursor:pointer}.addthis_button_facebook_like.at300b:hover,.addthis_button_facebook_like.at300bs:hover,.addthis_button_facebook_send.at300b:hover,.addthis_button_facebook_send.at300bs:hover{opacity:1}.addthis_20x20_style .at15t,.addthis_20x20_style .at300bs{overflow:hidden;display:block;height:20px!important;width:20px!important;line-height:20px!important}.addthis_32x32_style .at15t,.addthis_32x32_style .at300bs{overflow:hidden;display:block;height:2pc!important;width:2pc!important;line-height:2pc!important}.at300bs{overflow:hidden;display:block;background-position:0 0;height:1pc;width:1pc;line-height:1pc!important}.addthis_default_style .at15t_compact,.addthis_default_style .at15t_expanded{margin-right:4px}#at_share .at_item{width:123px!important;padding:4px;margin-right:2px;border:1px solid #fff}#at16p{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);z-index:10000001;position:absolute;top:50%;left:50%;width:300px;padding:10px;margin:0 auto;margin-top:-185px;margin-left:-155px;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#5e5e5e}#at_share{margin:0;padding:0}#at16pt{position:relative;background:#f2f2f2;height:13px;padding:5px 10px}#at16pt a,#at16pt h4{font-weight:700}#at16pt h4{display:inline;margin:0;padding:0;font-size:9pt;color:#4c4c4c;cursor:default}#at16pt a{position:absolute;top:5px;right:10px;color:#4c4c4c;text-decoration:none;padding:2px}#at15sptx:focus,#at16pt a:focus{outline:thin dotted}#at15s #at16pf a{top:1px}#_atssh{width:1px!important;height:1px!important;border:0!important}.atm{width:10pc!important;padding:0;margin:0;line-height:9pt;letter-spacing:normal;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#444;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);padding:4px}.atm-f{text-align:right;border-top:1px solid #ddd;padding:5px 8px}.atm-i{background:#fff;border:1px solid #d5d6d6;padding:0;margin:0;box-shadow:1px 1px 5px rgba(0,0,0,.15)}.atm-s{margin:0!important;padding:0!important}.atm-s a:focus{border:transparent;outline:0;transition:none}#at_hover.atm-s a,.atm-s a{display:block;text-decoration:none;padding:4px 10px;color:#235dab!important;font-weight:400;font-style:normal;transition:none}#at_hover.atm-s .at_bold{color:#235dab!important}#at_hover.atm-s a:hover,.atm-s a:hover{background:#2095f0;text-decoration:none;color:#fff!important}#at_hover.atm-s .at_bold{font-weight:700}#at_hover.atm-s a:hover .at_bold{color:#fff!important}.atm-s a .at-label{vertical-align:middle;margin-left:5px;direction:ltr}.at_PinItButton{display:block;width:40px;height:20px;padding:0;margin:0;background-image:url(https://s7.addthis.com/static/t00/pinit00.png);background-repeat:no-repeat}.at_PinItButton:hover{background-position:0 -20px}.addthis_toolbox .addthis_button_pinterest_pinit{position:relative}.at-share-tbx-element .fb_iframe_widget span{vertical-align:baseline!important}#at16pf{height:auto;text-align:right;padding:4px 8px}.at-privacy-info{position:absolute;left:7px;bottom:7px;cursor:pointer;text-decoration:none;font-family:helvetica,arial,sans-serif;font-size:10px;line-height:9pt;letter-spacing:.2px;color:#666}.at-privacy-info:hover{color:#000}.body .wsb-social-share .wsb-social-share-button-vert{padding-top:0;padding-bottom:0}.body .wsb-social-share.addthis_counter_style .addthis_button_tweet.wsb-social-share-button{padding-top:40px}.body .wsb-social-share.addthis_counter_style .addthis_button_facebook_like.wsb-social-share-button{padding-top:21px}@media print{#at4-follow,#at4-share,#at4-thankyou,#at4-whatsnext,#at4m-mobile,#at15s,.at4,.at4-recommended{display:none!important}}@media screen and (max-width:400px){.at4win{width:100%}}@media screen and (max-height:700px) and (max-width:400px){.at4-thankyou-inner .at4-recommended-container{height:122px;overflow:hidden}.at4-thankyou-inner .at4-recommended .at4-recommended-item:first-child{border-bottom:1px solid #c5c5c5}}</style><style type="text/css">.at-branding-logo{font-family:helvetica,arial,sans-serif;text-decoration:none;font-size:10px;display:inline-block;margin:2px 0;letter-spacing:.2px}.at-branding-logo .at-branding-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////+GlNUkcc1QAAAB1JREFUeNpiYIQDBjQmAwMmkwEM0JnY1WIxFyDAABGeAFEudiZsAAAAAElFTkSuQmCC")}.at-branding-logo .at-branding-icon,.at-branding-logo .at-privacy-icon{display:inline-block;height:10px;width:10px;margin-left:4px;margin-right:3px;margin-bottom:-1px;background-repeat:no-repeat}.at-branding-logo .at-privacy-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAMAAABR24SMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF8fr9ot/xXcfn2/P5AKva////////AKTWodjhjAAAAAd0Uk5T////////ABpLA0YAAAA6SURBVHjaJMzBDQAwCAJAQaj7b9xifV0kUKJ9ciWxlzWEWI5gMF65KUTv0VKkjVeTerqE/x7+9BVgAEXbAWI8QDcfAAAAAElFTkSuQmCC")}.at-branding-logo span{text-decoration:none}.at-branding-logo .at-branding-addthis,.at-branding-logo .at-branding-powered-by{color:#666}.at-branding-logo .at-branding-addthis:hover{color:#333}.at-cv-with-image .at-branding-addthis,.at-cv-with-image .at-branding-addthis:hover{color:#fff}a.at-branding-logo:visited{color:initial}.at-branding-info{display:inline-block;padding:0 5px;color:#666;border:1px solid #666;border-radius:50%;font-size:10px;line-height:9pt;opacity:.7;transition:all .3s ease;text-decoration:none}.at-branding-info span{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.at-branding-info:before{content:'i';font-family:Times New Roman}.at-branding-info:hover{color:#0780df;border-color:#0780df}</style><style data-styled-components=""></style><link rel="stylesheet" href="../../styles/smartbanner.css" data-react-helmet="true"><link rel="amphtml" href="../../amp/stories/cooking/gronkalspesto%3F_escaped_fragment_=1.html" data-react-helmet="true"><link rel="stylesheet" href="../../styles/photoswipe.css" data-react-helmet="true"><link rel="stylesheet" href="../../styles/photoswipe-default-skin.css" data-react-helmet="true"><link rel="next" href="../sports-cars/essen-motor-show-2022.html" data-react-helmet="true"><meta name="description" content="Grönkål är inte längre bara krussidullet runt julskinkan; numera är grönkål hur trendigt som helst. Inte undra på: det är supernyttigt, fantastiskt gott och väldigt lätt att variera." data-react-helmet="true"><meta name="twitter:image:src" content="https://res.cloudinary.com/enliven/image/upload/c_fill,g_faces,q_auto:eco,f_auto,dpr_1.0,w_1080,h_1080/v1/imageset/gronkalspesto_kopia.jpg" data-react-helmet="true"><meta name="twitter:title" content="Grönkålspesto | ENLIVEN" data-react-helmet="true"><meta name="twitter:description" content="Grönkål är inte längre bara krussidullet runt julskinkan; numera är grönkål hur trendigt som helst. Inte undra på: det är supernyttigt, fantastiskt gott och väldigt lätt att variera." data-react-helmet="true"></head>
+<body><div id="react-app"><div class="locale-en" data-reactroot=""><div class="wrapper page-posts-single color-variant-default wrapper-LG"><a href="gronkalspesto.html#" class="addthis_button_compact hide"> SHARE </a>  <div class="headroom-wrapper" style="height: 80px;"><div class="headroom headroom--unfixed" style="position: relative; top: 0px; left: 0px; right: 0px; z-index: 1; transform: translate3d(0px, 0px, 0px);"><section id="ext_menu-0" class="navbar navbar-main navbar-freeze"><nav class="navbar-section section navbar navbar-default">  <div class="container-fluid"><div class="navbar-header row"><div class="col-xs-3"><div class="sc-kGXeez bZsENl"><div class="sc-dxgOiQ cKyNep sc-kpOJdX kuXbhk"></div><div class="sc-ckVGcZ xFASE sc-kpOJdX kuXbhk"></div></div>  <nav class="hiddenMenu sc-eNQAEJ eTyRoD"><ul class="sc-hMqMXs evckxn"> <li class="slide-navbar slide-navbar-level-0__list">Arts &amp; Entertainment <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment/art.html">Art </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment/literature.html">Literature </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment/movies.html">Movies </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment/music.html">Music </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment/performing-arts.html">Performing Arts </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/arts-entertainment/tv.html">TV </a> </li> </ul> </div> </li><li class="slide-navbar slide-navbar-level-0__list">Food &amp; Wine <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine/baking.html">Baking </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine/beer.html">Beer </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine/cooking.html">Cooking </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine/drinks.html">Drinks </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine/gourmet-travel.html">Gourmet travel </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/food-wine/wine.html">Wine </a> </li> </ul> </div> </li><li class="slide-navbar slide-navbar-level-0__list">Home &amp; Garden <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/home-garden.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/home-garden/architecture.html">Architecture </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/home-garden/garden.html">Garden </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/home-garden/homes.html">Homes </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/home-garden/interior-design.html">Interior Design </a> </li> </ul> </div> </li><li class="slide-navbar slide-navbar-level-0__list">Men's Lifestyle <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle/grooming.html">Grooming </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle/health-fitness.html">Health &amp; Fitness </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle/interviews.html">Interviews </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle/right-now.html">Right now! </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle/sponsored-content.html">Sponsored Content </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/mens-lifestyle/style.html">Style </a> </li> </ul> </div> </li><li class="slide-navbar slide-navbar-level-0__list">Outdoor &amp; Health <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/outdoor-health.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/outdoor-health/cycling.html">Cycling </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/outdoor-health/golf.html">Golf </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/outdoor-health/health-fitness.html">Health &amp; Fitness </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/outdoor-health/outdoor.html">Outdoor </a> </li> </ul> </div> </li><li class="slide-navbar slide-navbar-level-0__list">Science &amp; Technology <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/science-technology.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/science-technology/automotive.html">Automotive </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/science-technology/history-nature.html">History &amp; Nature </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/science-technology/science-technology.html">Science &amp; Technology </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/science-technology/stuff-gaming-gear.html">Stuff, Gaming &amp; Gear </a> </li> </ul> </div> </li><li class="slide-navbar slide-navbar-level-0__list">Women's Lifestyle <img src="../../images/togglemenu-caret.svg" alt="dropdown caret" class="svg-fa-down"> <div class="slide-navbar slide-navbar-level-1__container"><ul class="sc-kEYyzF cFHUgT"> <li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle.html">See All </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/accessories.html">Accessories </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/beauty.html">Beauty </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/fashion.html">Fashion </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/interviews.html">Interviews </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/life-love.html">Life &amp; Love </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/right-now.html">Right now! </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/travel.html">Travel </a> </li><li class="sc-kkGfuU gCQriv"><a title="" class="menu-link" href="../../topics/womens-lifestyle/womens-health.html">Women's Health </a> </li> </ul> </div> </li> </ul><ul class="sc-hSdWYo ccqVDr"><li><a title="" class="menu-link" href="../../about-enliven.html">About Enliven </a> </li><li><a title="" class="menu-link" href="../../our-contributors.html">Our Contributors </a> </li><li><a title="" class="menu-link" href="../../become-a-contributor.html">Become a Contributor </a> </li> </ul> </nav> </div><div class="navbar-column navbar-column-s navbar-brand col-xs-6"><div class="header-logo"><a class="navbar-brand-link" href="../../index.html"><img src="../../images/enliven-logo.svg" alt="ENLIVEN" class="navbar-brand-img brand-img"></a></div> </div><div class="nav-user col-xs-3"> <div class="account-link"><a title="" class="text-decoration-none" href="../../signup.html"><button class="sc-cSHVUG gqTanh"> Sign Up </button></a><a title="" class="text-decoration-none margin-left-10" href="../../login.html"><button class="sc-cSHVUG hxksRN"> Log In </button></a><a title="" class="text-decoration-none margin-left-10" href="../../download/app.html"><button class="sc-cSHVUG eyxKZI">Get App</button></a></div> </div> </div> </div> </nav>  </section>  </div></div> <div id="react-google-tag-manager-gtm"></div><div id="page-wrapper"> <div></div> <div class="error-catcher"><div role="alert" class="flash-message alert alert-danger alert-dismissable"><button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close alert</span></button><span>Cannot read property 'className' of null</span></div></div></div> <footer id="footer" class="footer-nav"><nav id="enliven-navbar-footer" class="footer-nav__topics" role="navigation"><ul class="navbar-level-0"><li class="navbar-level-0-link first"><a title="" class="category-link wordcount-3" href="../../topics/arts-entertainment.html"><span class="word-0 first word">Arts </span><span class="word-1 word">&amp; </span><span class="word-2 last word">Entertainment </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/arts-entertainment/art.html"><span>Art</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/arts-entertainment/literature.html"><span>Literature</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/arts-entertainment/movies.html"><span>Movies</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/arts-entertainment/music.html"><span>Music</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/arts-entertainment/performing-arts.html"><span>Performing Arts</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/arts-entertainment/tv.html"><span>TV</span></a></li></ul></li><li class="navbar-level-0-link"><a title="" class="category-link wordcount-3" href="../../topics/food-wine.html"><span class="word-0 first word">Food </span><span class="word-1 word">&amp; </span><span class="word-2 last word">Wine </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/food-wine/baking.html"><span>Baking</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/food-wine/beer.html"><span>Beer</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/food-wine/cooking.html"><span>Cooking</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/food-wine/drinks.html"><span>Drinks</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/food-wine/gourmet-travel.html"><span>Gourmet travel</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/food-wine/wine.html"><span>Wine</span></a></li></ul></li><li class="navbar-level-0-link"><a title="" class="category-link wordcount-3" href="../../topics/home-garden.html"><span class="word-0 first word">Home </span><span class="word-1 word">&amp; </span><span class="word-2 last word">Garden </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/home-garden/architecture.html"><span>Architecture</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/home-garden/garden.html"><span>Garden</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/home-garden/homes.html"><span>Homes</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/home-garden/interior-design.html"><span>Interior Design</span></a></li></ul></li><li class="navbar-level-0-link"><a title="" class="category-link wordcount-2" href="../../topics/mens-lifestyle.html"><span class="word-0 first word">Men's </span><span class="word-1 last word">Lifestyle </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/mens-lifestyle/grooming.html"><span>Grooming</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/mens-lifestyle/health-fitness.html"><span>Health &amp; Fitness</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/mens-lifestyle/interviews.html"><span>Interviews</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/mens-lifestyle/right-now.html"><span>Right now!</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/mens-lifestyle/sponsored-content.html"><span>Sponsored Content</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/mens-lifestyle/style.html"><span>Style</span></a></li></ul></li><li class="navbar-level-0-link"><a title="" class="category-link wordcount-3" href="../../topics/outdoor-health.html"><span class="word-0 first word">Outdoor </span><span class="word-1 word">&amp; </span><span class="word-2 last word">Health </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/outdoor-health/cycling.html"><span>Cycling</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/outdoor-health/golf.html"><span>Golf</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/outdoor-health/health-fitness.html"><span>Health &amp; Fitness</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/outdoor-health/outdoor.html"><span>Outdoor</span></a></li></ul></li><li class="navbar-level-0-link"><a title="" class="category-link wordcount-3" href="../../topics/science-technology.html"><span class="word-0 first word">Science </span><span class="word-1 word">&amp; </span><span class="word-2 last word">Technology </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/science-technology/automotive.html"><span>Automotive</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/science-technology/history-nature.html"><span>History &amp; Nature</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/science-technology/science-technology.html"><span>Science &amp; Technology</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/science-technology/stuff-gaming-gear.html"><span>Stuff, Gaming &amp; Gear</span></a></li></ul></li><li class="navbar-level-0-link last"><a title="" class="category-link wordcount-2" href="../../topics/womens-lifestyle.html"><span class="word-0 first word">Women's </span><span class="word-1 last word">Lifestyle </span><img src="../../images/topnav-caret.svg" alt="caret down" class="caret-d"></a><ul class="navbar-level-1 hidden-drop" style="width: auto;"><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/accessories.html"><span>Accessories</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/beauty.html"><span>Beauty</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/fashion.html"><span>Fashion</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/interviews.html"><span>Interviews</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/life-love.html"><span>Life &amp; Love</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/right-now.html"><span>Right now!</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/travel.html"><span>Travel</span></a></li><li class="navbar-level-1-link"><a title="" class="navbar-level-1-link__anchor" href="../../topics/womens-lifestyle/womens-health.html"><span>Women's Health</span></a></li></ul></li></ul></nav><nav class="footer-nav__info"><div class="footer-nav__info__logo-wrapper"><div class="header-logo"><a class="navbar-brand-link" href="../../index.html"><img src="../../images/enliven-logo-ffffff.svg" alt="ENLIVEN" class="navbar-brand-img brand-img"></a></div></div><div class="enliven-social-media"><a href="https://www.facebook.com/Enliven.co/?fref=ts" class="sns-icon" target="_self"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-fw fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" color="#927a4e"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg></a><a href="https://www.instagram.com/enliven.co/" class="sns-icon" target="_self"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-fw fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="#927a4e"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a><a href="https://www.linkedin.com/company/15156624?trk=vsrp_companies_cluster_name&amp;trkInfo=VSRPsearchId%3A3452694631482143176214%2CVSRPtargetId%3A15156624%2CVSRPcmpt%3Acompanies_cluster" class="sns-icon" target="_self"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-fw fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="#927a4e"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a><a href="https://twitter.com/Enliven_co" class="sns-icon" target="_self"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-fw fa-2x " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" color="#927a4e"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></div><section class="footer-nav__info__section user"><h3 class="footer-nav__info__header"> USER </h3><ul class="footer-nav__info__section__ul"><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../about-enliven.html">About Enliven</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../download/app.html">Get Enliven's App</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../signup.html">Sign Up / Newsletter</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../account.html">My Account</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../our-contributors.html">Follow Our Contributors</a></li></ul></section><section class="footer-nav__info__section creator"><h3 class="footer-nav__info__header"> CONTRIBUTOR </h3><ul class="footer-nav__info__section__ul"><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../become-a-contributor.html">Become a Contributor</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../about-contributor/application.html">Apply to be a contributor</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../about-contributor/submission-guidelines.html">Submit your article</a></li></ul></section><section class="footer-nav__info__section company"><ul class="footer-nav__info__section__ul"><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../company.html">COMPANY</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../careers.html">CAREERS</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../policy/terms-conditions.html">TERMS &amp; CONDITIONS</a></li><li class="footer-nav__info__section__li"><a title="" class="footer-nav__anchor" href="../../policy/privacy-security.html">PRIVACY &amp; SECURITY</a></li></ul></section><svg width="380" height="800" xmlns="http://www.w3.org/2000/svg" class="footer-bg-logo"><g><title>Layer 1</title><path id="svg_slash" d="m250,5l-251,683l118,0l251,-684l-118,1z" stroke="null" fill="rgba(255, 255, 255, 0.1)"></path></g></svg></nav><small class="footer-nav__copywrite">Copyright © 2023&nbsp;Nliven Technology AB</small></footer>  <div class="cookie-disclaimer container-fluid"><div class="row"><div class="col-sm-9 col-xs-9"><p class="Welcome-to-Enliven">Enliven uses cookies, JavaScript and related technology. I agree that Enliven may use these to create a user profile and adapt this website for me in order to increase its relevance for me and for advertising purposes. Read more on our <a href="../../policy/terms-conditions.html" class="text-underline" target="_self">Terms &amp; Conditions</a> and our updated <a href="../../policy/privacy-security.html" class="text-underline" target="_self">Privacy &amp; Security Policy</a>.</p></div><div class="text-right got-it pull-right col-sm-3 col-xs-3"><a class="btn btn-link">Got It</a></div></div></div>  </div></div></div>
+  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="../../8d2a5776d851e6438c89d21b4c2380f9beaefd14.css%3Fmeteor_css_resource=true.css">
+
+  
+  
+
+
+
+
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=499525913939086&amp;ev=PageView&amp;noscript=1"></noscript>
+<div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;"><iframe id="_atssh903" title="AddThis utility frame" src="https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html#rand=0.21215337598983375&amp;iit=1682945187723&amp;tmr=load%3D1682945187680%26core%3D1682945187711%26main%3D1682945187720%26ifr%3D1682945187726&amp;cb=0&amp;cdn=0&amp;md=0&amp;kw=&amp;ab=-&amp;dh=www.enliven.co&amp;dr=&amp;du=https%3A%2F%2Fwww.enliven.co%2Fstories%2Fcooking%2Fgronkalspesto&amp;href=https%3A%2F%2Fwww.enliven.co%2Fstories%2Fcooking%2Fgronkalspesto&amp;dt=Gr%C3%B6nk%C3%A5lspesto%20%7C%20ENLIVEN&amp;dbg=0&amp;cap=tc%3D0%26ab%3D0&amp;inst=1&amp;jsl=0&amp;prod=undefined&amp;lng=en&amp;ogt=&amp;pc=men&amp;pub=&amp;ssl=1&amp;sid=644fb4a3ca150886&amp;srf=0.01&amp;ver=300&amp;xck=0&amp;xtr=0&amp;og=&amp;csi=undefined&amp;rev=v8.28.8-wp&amp;ct=1&amp;xld=1&amp;xd=1" style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px; left: 0px;"></iframe></div><style id="service-icons-0"></style>
+  
+  
+  
+  
+  
+
+  
+  </body></html>
